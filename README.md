@@ -85,9 +85,9 @@ class LessStruct
       # e.g. SomeModule::SomeClass -> "some_module.some_class"
 
       def self.config_entity_kind_prefix
-        "less"
+        nil
       end
-      # resulting entity's kind will be like "less.some_module.some_class"
+      # resulting entity's kind will be like "some_prefix.some_module.some_class"
       # Set nil if prefix is not needed.
 
       def self.config_entity_id_auto_y
